@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://cor8igwxetpgn"]
+
+[ext_resource type="Script" path="res://addons/dynamic_water_2d/water.gd" id="1"]
+
+[node name="Water" type="Node2D" node_paths=PackedStringArray("top_left_marker", "bottom_right_marker")]
+script = ExtResource("1")
+top_left_marker = NodePath("TopLeft")
+bottom_right_marker = NodePath("BottomRight")
+
+[node name="TopLeft" type="Marker2D" parent="."]
+position = Vector2(0, 64)
+gizmo_extents = 32.0
+
+[node name="BottomRight" type="Marker2D" parent="."]
+position = Vector2(480, 272)
+gizmo_extents = 32.0
