@@ -113,6 +113,9 @@ func _ready() -> void:
 
 ## calculates the extents of the water.
 func calc_extents() -> void:
+	if top_left_marker == null or bottom_right_marker == null:
+		push_error("either top left or bottom right marker is not set")
+		return
 	top_left_point = top_left_marker.position
 	bottom_right_point = bottom_right_marker.position
 	extents_valid = _validate_extents()
