@@ -1,12 +1,14 @@
 # dynamic_water_2d
 
-Simple sideview water for Godot that reacts to forces applied to it.
+simple sideview water for Godot that reacts to forces applied to it.
 
-## Usage
+## usage
 
-Clone the repository and copy over the addon.
-The `water.tscn` scene in the addon is a preset that should work by default.
+get it from the [asset library](https://godotengine.org/asset-library/asset/3246).
 
-## Credits
+clone the repository and copy over the addon.
+the `water.tscn` scene in the addon is a preset that should work by default.
 
-Thanks to @HackTrout for writing the original code (https://github.com/HackTrout/2DDynamicWater).
+## credits
+
+thanks to @HackTrout for writing the original code (https://github.com/HackTrout/2DDynamicWater).
